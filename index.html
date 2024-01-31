@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Personal Portfolio </title>
+    <link rel="icon" href="icon.jpg"></link>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Vee</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link active-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link active-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link active-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Veemikha</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>A passionate <b>web developer</b> with expertise in <strong>HTML5, CSS3, Javascript</strong>.
+                            I love turning ideas into interactive and user-friendly websites. I bring ideas to life in the digital world!
+                                                </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a href="#projects"><button class="btn blue-btn">See My Work</button></a>
+                    </div>
+
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.instagram.com/__veemi__?igsh=OGQ5ZDc2ODk2ZA==" ><i class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/veemikha-r"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://github.com/Veemikha" ><i class="uil uil-github-alt"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./profile.png" alt="avatar">
+                    </div>
+                </div>
+                
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>Hello, I'm Veemikha, a passionate and dynamic individual eager to embark on a career as a <b>web developer</b>. Am currently pursuing with a degree in Bachelor of Computer Science and Engineering, 
+                                I bring a solid foundation in programming and a keen interest in creating innovative and user-friendly web experiences.
+                            </p>
+                            <div class="about-btn">
+                                <a download="cv" href="download.jpg" style="transform: translate(-50%,-50%); left: 50%; top: 80%; height: 50px; width: 200px;">Download CV <i class="uil uil-import"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Tools</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Visual Studio Code</span>
+                                <span>Github</span>
+                                <span>Canva</span>
+                                <span>Wordpress</span>
+                                <span>Excel</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>SoftSkills</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Leadership</span>
+                                <span>Communication</span>
+                                <span>Problem solving</span>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Completed</h3>
+                        <label>1 Finished Projects</label>
+                        <div class="link"><a href="./index.html" style="text-decoration: none; color: #ffffff;">Click Here</a></div>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Experience</h3>
+                        <label>I'm a newbie</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Mini Projects</h3>
+                        <label>10+ Projects</label>
+                        <div class="link"><a href="./index1.html" style="text-decoration: none; color: #ffffff;">Click Here</a></div>
+                    </div>
+                   
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+            
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i><a href="mailto:veemikha10@gmail.com" style="text-decoration: none; ">Email: veemikha10@gmail.com</a></p>
+                            <p><i class="uil uil-phone"></i> +91 8248144035</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form method="post" id="form" class="form">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" name="name" placeholder="Name">
+                                <input type="text" class="input-field" name="email" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message" name="message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn" id="submit">send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <script>
+                const scriptURL="https://script.google.com/macros/s/AKfycbwOIsJ1rQWfVM6VpsARLejKdDC04UvH_b8IFaKh_qEluWb8fDyQaJd3ZWyFA0mk44/exec"
+const form = document.forms['form']
+
+form.addEventListener('submit',e =>{
+    e.preventDefault()
+    fetch(scriptURL,{method: 'POST', body: new FormData(form)})
+    .then(response => window.location.assign('index8.html'))
+    .catch(error => console.error('error',error.message))
+})
+            </script>
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Veemikha &hearts;</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.instagram.com/__veemi__?igsh=OGQ5ZDc2ODk2ZA==" ><i class="uil uil-instagram"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/veemikha-r"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://github.com/Veemikha" ><i class="uil uil-github-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Veemikha</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
